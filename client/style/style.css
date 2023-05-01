@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	/* overflow:  hidden; */
+	font-family: 'Lato', sans-serif;
+}
+
+main{
+	display: flex;
+}
+
+.one{
+	margin: 0;
+	width: 71%;
+	height: 100vh;
+	background-color: black;
+}
+
+
+.gamepad{
+	margin: 0;
+	width: 29%;
+	/* height: 1080px; */
+	height: 100vh;
+	background-image: url("./img/gamepad.png");
+	background-size: 100% 100%;
+}
+
+.main__content{
+	width: 100%;
+	height: 62%;
+	background-image: url("./img/fon.png");
+	
+}
+
+.mainmain{
+	width: 100%;
+	height: 100%;
+	background: #232540;
+	opacity: 91%;
+	display: flex;
+	flex-direction: column;
+}
+
+.mini__picture{
+	display: flex;
+}
+
+.pistol{
+	width: 50%;
+	height: 38vh;
+	background: linear-gradient(47.05deg, #48085B 1.67%, #232741 98.33%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gamepad2{
+	width: 50%;
+	height: 38vh;
+	background: linear-gradient(31.79deg, #BC109A 7.27%, #7A289C 92.73%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mini__pic{
+	height: 50%;
+}
+
+
+header{
+	width: 90%;
+	height: 50px;
+	/* background-color: black; */
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.megalogo{
+	width: 90%;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	/* background-color: black; */
+}
+.megalogo img {
+	height: 100%;
+}
+
+
+.info{
+	width: 40%;
+	height: 60px;
+	/* background-color: yellow; */
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info p{
+	margin: 0px;
+	color: white;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.logo img{
+	height: 40px;
+}
+
+.socset{
+	height: 30px;
+	margin-left: 10px;
+}
+nav{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
